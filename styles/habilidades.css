@@ -1,0 +1,57 @@
+.habilidades {
+    width: 100vw;
+    height: 400px;
+}
+
+.habilidades h2 {
+    margin: 15px 50px;
+}
+
+.habilidades-itens {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor-claro);
+}
+
+.habilidades-item {
+    margin: 25px 20px 0 20px;
+}
+
+/*Resposividade 1024px*/
+
+@media screen and (min-width: 1024px) {
+    .habilidades-container {
+        width: 65vw;
+    }
+
+    .habilidades-item {
+        width: 80px;
+    }
+
+    .habilidades-itens {
+        font-size: 1.5em;
+    }
+
+    .habilidades {
+        height: 52vh;
+    }
+}
+
+/*Resposividade 1400px*/
+
+@media screen and (min-width: 1400px) {
+
+    .habilidades-container {
+        width: 60vw;
+    }
+
+    .habilidades-item {
+        width: 150px;
+    }
+    .habilidades-itens {
+        font-size: 2em;
+    }
+}

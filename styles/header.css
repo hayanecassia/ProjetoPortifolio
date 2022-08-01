@@ -1,0 +1,75 @@
+/* Mobile First - 428px*/
+
+.container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0 black;
+}
+
+#menu {
+    opacity: 0;
+    margin: 0;
+}
+
+.menu-imagem {
+    width: 7vw;
+    height: 7vh;
+}
+
+.menu-aberto {
+    width: 200px;
+    height: 150px;
+    background-color: var(--cor-claro);
+    position: absolute;
+    margin: 0 20px;
+    display: none;
+}
+
+.menu:checked~.menu-aberto {
+    display: block;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    color: var(--background-color);
+    font-family: var(--fonte-principal);
+    font-size: 1.4em;
+    padding: 10px 10px;
+}
+
+.lista-redes {
+    display: flex;
+}
+
+.icones-lista {
+    width: 7vw;
+    height: 7vh;
+    margin: 0 5px;
+}
+
+/*Resposividade 1400px*/
+
+@media screen and (min-width: 1400px)  {
+    .menu-imagem {
+        display: none;
+    }
+
+    .menu-aberto {
+        display: flex;
+        background: none;
+        width: 55vw;
+        height: 10vh;
+        position: static;
+        font-size: 1.6em;
+    }
+
+    .btn {
+        color: var(--cor-claro);
+        padding: 19px 20px;
+    }
+}
+

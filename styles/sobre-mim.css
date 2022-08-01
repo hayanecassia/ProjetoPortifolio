@@ -1,0 +1,49 @@
+.sobre-mim {
+    height: 270px;
+    margin: 15px 50px;
+}
+
+.sobre-titulo {
+    margin: 20px 0;
+}
+
+.texto-descricao {
+    font-size: 1.5em;
+    color: var(--cor-claro);
+    width: 350px;
+    line-height: 1.5em;
+}
+
+/*Responsividade 1024px*/
+
+@media screen and (min-width: 1024px) {
+    .sobre-mim {
+        display: flex;
+        justify-content: end;
+        height: 40vh;
+        margin: 15px 50px;
+    }
+
+    .sobre {
+        justify-content: end;
+    }
+
+    .sobre-titulo {
+        text-align: end;
+    }
+
+    .texto-descricao {
+        font-size: 1.8em;
+        width: 60vw;
+    }
+}
+
+/*Resposividade 1400px*/
+
+@media screen and (min-width: 1400px) {
+    .texto-descricao {
+        font-size: 2.5em;
+        width: 50vw;
+    }
+}
+

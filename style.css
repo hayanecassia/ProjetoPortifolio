@@ -1,0 +1,21 @@
+@import url("styles/header.css");
+@import url("styles/apresentacao.css");
+@import url("styles/hello.css");
+@import url("styles/sobre-mim.css");
+@import url("styles/habilidades.css");
+@import url("styles/ajuda.css");
+@import url("styles/footer.css");
+
+
+:root {
+    --background-color: #181818;
+    --cor-claro: #D3D0CB;
+    --amarelo: #E2C044;
+    --fonte-principal: "Dosis";
+}
+
+body {
+    background: var(--background-color);
+    font-family: var(--fonte-principal);
+}
+
