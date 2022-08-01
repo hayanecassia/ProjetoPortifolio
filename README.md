@@ -1,6 +1,6 @@
 # Projeto Portifólio
 Página pessoal de trabalho.
-Confira o resultado clicando [aqui](https://hayanecassia.github.io/ProjetoPortif-lio/)
+Confira o resultado clicando [aqui](https://hayanecassia.github.io/ProjetoPortifolio/)
 <hr>
 
 ## Tecnologias
@@ -14,4 +14,4 @@ Confira o resultado clicando [aqui](https://hayanecassia.github.io/ProjetoPortif
 * Interatividade com menu
 
 ## Screenshots
-![Screenshot da tela inicial do AluraBooks](![image](https://user-images.githubusercontent.com/62707033/182240776-ce2ddc17-ba69-463a-b84d-aa641c1618d4.png))
+![Screenshot da tela inicial do AluraBooks](![image](![image](https://user-images.githubusercontent.com/62707033/182241895-5f05f2d0-0bea-4e6e-8e51-730c4512c913.png)))
