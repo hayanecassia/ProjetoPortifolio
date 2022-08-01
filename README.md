@@ -16,5 +16,3 @@ Confira o resultado clicando [aqui](https://hayanecassia.github.io/ProjetoPortif
 ## Screenshots
 ![Screenshot do Projeto](![image](https://user-images.githubusercontent.com/62707033/182241895-5f05f2d0-0bea-4e6e-8e51-730c4512c913.png))
 
-## Screenshots
-![Screenshot da tela inicial do AluraBooks](![image](https://user-images.githubusercontent.com/62707033/182240776-ce2ddc17-ba69-463a-b84d-aa641c1618d4.png))
